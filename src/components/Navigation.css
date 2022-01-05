@@ -9,4 +9,12 @@ nav {
 button {
   width: 4rem;
   height: 4rem;
+  background-color: transparent;
+  border: 1px solid rgb(128, 100, 23);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+polygon {
+  stroke: #53410f;
 }

@@ -20,6 +20,6 @@ article {
 }
 
 article:nth-child(odd) {
-  background-color: #2320c4;
+  background-color: #1a198a;
   color: azure;
 }
