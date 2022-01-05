@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+button {
+  width: 4rem;
+  height: 4rem;
+}

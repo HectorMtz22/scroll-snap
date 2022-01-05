@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { Navigation } from "./components/Navigation";
 import "./App.css";
 
 function App() {
   return (
-    <>
+    <main>
       <article>
         <h1>Título 1</h1>
       </article>
@@ -19,7 +19,8 @@ function App() {
       <article>
         <h1>Título 5</h1>
       </article>
-    </>
+      <Navigation />
+    </main>
   );
 }
 
