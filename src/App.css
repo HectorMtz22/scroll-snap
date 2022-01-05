@@ -4,16 +4,18 @@ html {
 
 main {
   height: 100vh;
-  overflow: scroll;
   scroll-behavior: smooth;
 }
 
 article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   scroll-snap-align: start;
-  min-width: 100vw;
   height: 100vh;
 }
 
 article:nth-child(odd) {
-  background-color: aqua;
+  background-color: #2320c4;
+  color: azure;
 }
